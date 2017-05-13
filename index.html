@@ -98,5 +98,17 @@ display: block;
 }
 
 </style>
+  
+<script>
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
+    var inputs = document.getElementsByTagName('p')
+
+    for (var i = 0; i < inputs.length; i++) {
+        inputs[i].style.fontSize = 1.3em
+    }
+}
+
+</script>
 
 </html>
